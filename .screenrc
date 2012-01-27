@@ -3,7 +3,6 @@ vbell_msg "   -- Ring, Ring!! --   "  # default: "Wuff,Wuff!!"
 autodetach on                         # default: on
 nethack on
 msgminwait 0
-msgwait 1
 version
 msgwait 10
 startup_message off                   # default: on
