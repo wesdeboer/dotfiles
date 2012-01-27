@@ -5,24 +5,19 @@ nethack on
 msgminwait 0
 msgwait 1
 version
-msgwait 2
+msgwait 10
 startup_message off                   # default: on
 crlf off                              # default: off
 multiuser on
 defscrollback 1000                    # default: 100
 silencewait 5                 # default: 30
 activity "activity in %n (%t) [%w:%s]~"
-bell "bell in %n (%t) [%w:%s]~"
+bell "bell in %n (%t)"
 
 screen -t local 0
-screen -t mc 1 mc
-screen -t top 2 top
-screen -t web 3
-screen -t meme 4
-screen -t proxy 5
-screen -t dev 6
-screen -t invoke 7
-screen -t other 8
+screen -t im 1 finch
+screen -t todo 2
+screen -t dev 3 ssh dev
 
 select 0
 
