@@ -1,0 +1,24 @@
+  vbell off				# default: off
+  vbell_msg "   -- Ring, Ring!! --   "	# default: "Wuff,Wuff!!"
+  autodetach on				# default: on
+  nethack on
+  msgminwait 0
+  version
+  msgwait 2
+  startup_message off			# default: on
+  crlf off				# default: off
+  multiuser on
+  defscrollback 1000			# default: 100
+  silencewait 5			# default: 30
+  activity "activity in %n (%t) [%w:%s]~"
+  bell "bell in %n (%t)"
+
+  screen -t local 0
+
+  select 0
+
+  hardstatus alwayslastline "%{=b}%{G} Screens: %{b}%w %=%{G}%C%A %D, %M %d "
+
+  bind h prev
+  bind l next
+  escape z
