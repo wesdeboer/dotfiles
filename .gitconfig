@@ -1,0 +1,17 @@
+[github]
+	user = wesdeboer
+[user]
+	name = Wes DeBoer
+	email = wesdeboer@gmail.com
+[alias]
+	s = status
+	ci = commit
+	a = add
+	d = diff
+    dc = diff --cached
+    b = branch
+    co = checkout
+[color]
+	ui = true
+[push]
+	default = simple
