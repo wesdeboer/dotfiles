@@ -1,17 +1,23 @@
 [github]
-	user = wesdeboer
+  user = wesdeboer
 [user]
-	name = Wes DeBoer
-	email = wesdeboer@gmail.com
+  name = Wes DeBoer
+  email = wesdeboer@gmail.com
 [alias]
-	s = status
-	ci = commit
-	a = add
-	d = diff
-    dc = diff --cached
-    b = branch
-    co = checkout
+  s = status
+  c = commit -v
+  ci = commit -v
+  a = add
+  d = diff
+  dc = diff --cached
+  b = branch
+  l = log --oneline
+  lg = log --oneline --graph --decorate
+  co = checkout
+  o = checkout
+  ps = push
+  psom = push origin master
 [color]
-	ui = true
+  ui = true
 [push]
-	default = simple
+  default = simple
