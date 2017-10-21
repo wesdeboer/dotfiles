@@ -17,6 +17,7 @@
   o = checkout
   ps = push
   psom = push origin master
+  pshm = push heroku master
 [color]
   ui = true
 [push]
